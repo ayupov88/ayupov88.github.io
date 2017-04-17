@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for post in site.categories.jekyll %}
-{{ post.title }}
+
 
 <div class="blog-post">
             <h2 class="blog-post-title"><a href="{{ post.url|prepend: site.baseurl }}">{{ post.title }}</a></h2>
